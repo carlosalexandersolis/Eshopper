@@ -1,5 +1,10 @@
 # Eshopper
-sitio web punto de venta  de ropa
-creado por:carlos alexander maerrufo solis
-3proyecto final de submodulo
-3o programacion vesp.
+
+Sitio WEB de Punto de Venta de Ropa
+
+Creado por: Jose Alejandro Cisneros
+Fecha: 28 de Octubre 2024
+
+Proyecto Final de Submodulo
+
+3o de programacion Vesp
