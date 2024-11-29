@@ -1,4 +1,5 @@
+ Vestido,450
+ Vestido,450
  Blusa,100
  Lentes,180
  Blusa,100
- Blusa Ligera,100
