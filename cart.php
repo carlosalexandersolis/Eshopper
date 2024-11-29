@@ -10,6 +10,7 @@
       $precio = "";
    } 
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -139,7 +140,7 @@
 						 if(file_exists('carritodecompras.txt')){
          $content = trim(file_get_contents('carritodecompras.txt'), PHP_EOL);
          $lineas = explode(PHP_EOL, $content);
-         $total = 0; 
+         $total = 0;
          foreach($lineas as $linea){
             list($productoE, $precioE) = explode(',', $linea);
            //si el archivo tiene enters el programa truena
@@ -189,10 +190,10 @@
 				<div class="col-sm-6">
 					<div class="total_area">
 						<ul>
-							<li>Sub Total del carrito<span><?php echo "$" . $total; ?></span></li>
-							<li>Impuestos <span><?php echo "$" . $total * .16; ?></span></li>
+							<li>Sub Total del carrito<span><?php echo "$ " . $total; ?></span></li>
+							<li>Impuestos <span><?php echo "$ " .$total * .16; ?></span></li>
 							<li>Precio de envio<span>Gratis</span></li>
-							<li>Total <span><?php echo "$" . $total + ($total * .16); ?></span></li>
+							<li>Total <span><?php echo "$ " . $total +($total * .16); ?></span></li>
 						</ul>
 							<a class="btn btn-default update" href="">Actualizar</a>
 							<a class="btn btn-default check_out" href="vaciarcarrito.php" target="_blank">vaciar</a>
